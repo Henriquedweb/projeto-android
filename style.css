@@ -66,12 +66,12 @@ header h1 {
 }
 
 header > p {
-    font-size: 23px;
+    font-size: 20px;
     text-shadow: 1px 1px 10px black;
     text-align: center;
     color: white;
     margin: auto;
-    margin-bottom: 40px;
+    margin: 5px 5px 5px 5px;
 }
 
 strong {
@@ -80,14 +80,14 @@ strong {
 
 nav {
     background-color: #286318bd;
-    text-indent: 25px;
+    text-indent: 10px;
     padding: 0px 0px 10px 0px;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.137);
 }
 
 nav > a {
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bolder;
     padding: 0px 10px 0px 0px;
     transition-duration: 0.5s;
@@ -151,7 +151,7 @@ h2#especial {
 article > h1, h2 {
     font-family: 'idroid';
     color: #286318;
-    text-indent: 10px;
+    text-indent: ;
 }
 
 article > h2 {
