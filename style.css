@@ -41,8 +41,10 @@ body {
 }
 
 header {
-    height: 180px;
     background-image: linear-gradient(to bottom, rgb(127, 255, 165), #286318bb);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
 }
 
 article {
@@ -55,13 +57,12 @@ article {
     border-radius: 0px 0px 10px 10px;
 }
 
-header h1 {
-    font-size: 50px;
+header > h1 {
+    font-size: 3em;
     font-weight: normal;
-    text-align: center;
     font-family: 'bebas';
     color: white;
-    padding: 20px 0px 15px 0px;
+    margin-bottom: 20px;
     text-shadow: 2px 2px 10px black;
 }
 
